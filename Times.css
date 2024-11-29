@@ -222,7 +222,7 @@
 .containnerr {
   display: flex;
   margin: 70px;
-  height: 700px;
+  /* height: 700px; */
   padding-left: 300px;
   padding-right: 300px;
   justify-content: space-between;
@@ -254,4 +254,90 @@
 .Images {
   height: 100%;
   width: 100%;
+}
+#BoxHR {
+  margin-top: -30px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+#BoxHR2 {
+  /* margin-top: -30px; */
+  margin-left: 300px;
+  margin-right: 300px;
+}
+.containerFooter {
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+  margin-top: 20px;
+  margin-left: 300px;
+  margin-right: 300px;
+  /* gap: 20px; */
+}
+.SecA {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid blue; */
+  gap: 10px;
+  align-content: center;
+}
+.SecA:hover {
+  text-decoration: underline;
+}
+.SecB {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: justify;
+}
+.SecB:hover {
+  text-decoration: underline;
+}
+.SecC {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: justify;
+}
+.SecC:hover {
+  text-decoration: underline;
+}
+.SecD {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: justify;
+}
+.SecD:hover {
+  text-decoration: underline;
+}
+.SecE {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: justify;
+}
+.SecE:hover {
+  text-decoration: underline;
+}
+.FHEAD {
+  padding-left: 300px;
+  padding-right: 300px;
+  padding-top: 10px;
+}
+#BoxHR3 {
+  margin-top: 20px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+.Last {
+  padding-top: 20px;
+  padding-left: 300px;
+  padding-right: 300px;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  gap: 20px;
+  height: 100px;
+  color: rgb(156, 146, 146);
 }
