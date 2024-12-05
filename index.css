@@ -1,0 +1,343 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.Main {
+  padding-left: 300px;
+  padding-right: 300px;
+}
+.imgSearch {
+  height: 15px;
+  width: 15px;
+}
+.ImageSearch {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 300px;
+  padding-right: 300px;
+  padding-top: 15px;
+}
+.ImageSearch .FirstNavBar .Content_Fst {
+  display: flex;
+  gap: 15px;
+}
+.FirstNavBar a {
+  text-decoration: none;
+  font-size: 12px;
+  color: black;
+}
+#Inter {
+  font-weight: bold;
+}
+.contents {
+  display: flex;
+  gap: 20px;
+  font-size: 12px;
+}
+.Content_A {
+  height: 30px;
+  width: 180px;
+  border: 2px solid rgb(133, 204, 228);
+  background-color: rgb(133, 204, 228);
+  align-content: center;
+  text-align: center;
+  border-radius: 7px;
+}
+#btn {
+  background-color: rgb(133, 204, 228);
+  border: none;
+  height: 30px;
+  align-items: center;
+  width: 60px;
+  border-radius: 7px;
+}
+.SecNavBar {
+  display: flex;
+  gap: 145px;
+  padding-left: 300px;
+  padding-right: 300px;
+  padding-top: 25px;
+}
+.SecNavBar .Date {
+  font-size: 14px;
+}
+.SecNavBar .MainTxt {
+  font-size: 45px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bolder;
+}
+.Lastnav {
+  padding-left: 300px;
+  padding-right: 300px;
+  padding-top: 15px;
+}
+.finalNav {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding-right: 45px;
+}
+.finalNav select {
+  border: none;
+  background-color: white;
+  color: rgb(82, 77, 77);
+}
+.finalNav select:hover {
+  text-decoration: underline;
+}
+.finalNav #Divider {
+  color: rgb(161, 153, 153);
+}
+#first_HR {
+  margin-top: 10px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+#sec_HR {
+  margin-top: 3px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+.MainContents {
+  /* padding-left: 300px;
+  padding-right: 300px; */
+  display: flex;
+  padding-top: 15px;
+  /* width: 70%; */
+}
+.imgOne {
+  height: 320px;
+  padding-left: 15px;
+  width: 500px;
+}
+
+.Txt_Head {
+  height: 50%;
+}
+#Trump {
+  font-size: 23px;
+  font-weight: bold;
+}
+#Trump_Two {
+  font-size: 14px;
+  color: rgb(131, 121, 121);
+  padding-top: 15px;
+}
+/* .VL {
+  border-left: 2px solid red;
+  margin-left: 15px;
+  height: 500px;
+} */
+.RightSide {
+  margin-left: 20px;
+  width: 35%;
+  height: 25vh;
+}
+.ImgRight {
+  width: 100%;
+  height: 100%;
+}
+.IHR {
+  width: 25%;
+  margin-top: -120px;
+}
+.IHR_B {
+  width: 25%;
+  margin-top: 20px;
+}
+.SecContent {
+  padding-top: 15px;
+}
+.Txt_D {
+  padding-top: 15px;
+}
+.Txt_C {
+  padding-top: 15px;
+}
+.IHR_C {
+  width: 64%;
+  margin-top: 15px;
+}
+.SecMain {
+  padding-left: 300px;
+  padding-right: 300px;
+  margin-top: -80px;
+  display: flex;
+  justify-content: right;
+  max-width: fit-content;
+  float: right;
+}
+#txt {
+  padding-right: 100px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.main_Thre {
+  padding-left: 300px;
+  padding-right: 300px;
+  display: flex;
+  justify-content: right;
+  max-width: fit-content;
+  float: right;
+}
+#txt_Z {
+  padding-right: 70px;
+  font-size: 15px;
+  color: rgb(161, 153, 153);
+}
+.SecLayer {
+  /* border: 2px solid red; */
+  padding-left: 300px;
+  padding-right: 300px;
+  margin-top: 50px;
+  display: flex;
+  gap: 30px;
+}
+.IHR_D {
+  margin-top: 70px;
+}
+.ImgRow {
+  height: 100px;
+  width: 100px;
+  margin-left: 30px;
+}
+.Thrd {
+  display: flex;
+  gap: 25px;
+}
+.TxtSide {
+  padding-top: 30px;
+}
+.RightRow {
+  font-weight: bold;
+  font-size: 15px;
+  padding-left: 15px;
+}
+#hrrrrr {
+  width: 250px;
+  margin-top: 20px;
+}
+.containnerr {
+  display: flex;
+  margin: 70px;
+  /* height: 700px; */
+  padding-left: 300px;
+  padding-right: 300px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.Box_A {
+  height: 300px;
+  width: 225px;
+  display: flex;
+  flex-direction: column;
+  column-gap: 10px;
+  margin-top: 10px;
+}
+/* .Box_B {
+  border: 2px solid blue;
+  height: 150px;
+  width: 150px;
+} */
+.Img_A {
+  height: 45%;
+  width: 100%;
+}
+.Text_A {
+  height: 55%;
+  width: 100%;
+  text-align: justify;
+  padding-top: 10px;
+}
+.Images {
+  height: 100%;
+  width: 100%;
+}
+#BoxHR {
+  margin-top: -30px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+#BoxHR2 {
+  /* margin-top: -30px; */
+  margin-left: 300px;
+  margin-right: 300px;
+}
+.containerFooter {
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+  margin-top: 20px;
+  margin-left: 300px;
+  margin-right: 300px;
+  /* gap: 20px; */
+}
+.SecA {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid blue; */
+  gap: 10px;
+  align-content: center;
+}
+.SecA:hover {
+  text-decoration: underline;
+}
+.SecB {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: justify;
+}
+.SecB:hover {
+  text-decoration: underline;
+}
+.SecC {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: justify;
+}
+.SecC:hover {
+  text-decoration: underline;
+}
+.SecD {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: justify;
+}
+.SecD:hover {
+  text-decoration: underline;
+}
+.SecE {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: justify;
+}
+.SecE:hover {
+  text-decoration: underline;
+}
+.FHEAD {
+  padding-left: 300px;
+  padding-right: 300px;
+  padding-top: 10px;
+}
+#BoxHR3 {
+  margin-top: 20px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+.Last {
+  padding-top: 20px;
+  padding-left: 300px;
+  padding-right: 300px;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  gap: 20px;
+  height: 100px;
+  color: rgb(156, 146, 146);
+}
